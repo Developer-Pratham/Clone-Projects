@@ -1,0 +1,134 @@
+body {
+    cursor: url('cursor2.png'),auto;
+    font-family: 'Segoe UI';
+}
+
+nav {
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-around;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    gap: 15px;
+}
+
+nav ul li {
+    font-size: x-small;
+    margin-top: -10px;
+    text-decoration: none;
+    color: rgb(93, 90, 90);
+    display: flex;
+    align-items: center;
+}
+
+nav ul li span {
+    padding: 5px;
+}
+
+.logo_container img {
+    width: 60%;
+}
+
+.first {
+    /* border: 2px solid red; */
+    margin: 60px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+}
+
+.first span {
+    font-size: 43px;
+}
+
+.first img {
+    width:100px;
+    display: inline-block;
+    margin-left: 10px;
+}
+.text{
+    width: 60vw;
+    font-size: 23px;
+    text-align: center;
+}
+
+.btn{
+    padding: 12px;
+    height: 5.5vh;
+    font-size: 14px;
+    background-color: #00b6d1;
+    border:none;
+    border-radius: 5px;
+    font-weight: bold;
+    text-transform: uppercase;
+    cursor: pointer;
+    color: white;
+}
+.second{
+    width: 55vw;
+    margin:60px auto;
+}
+.small{
+    font-size: 12px;
+}
+.second img{
+    width: 6%;
+}
+.grid {
+    display: grid;
+    grid-template-columns: 280px 280px 280px;
+    gap: 25px;
+    margin: auto;
+    width: 55vw;
+}
+.item{
+    margin: auto;
+    background-color: #f9f9f9;
+    width: 18vw;
+    height: 17vh;
+    text-align: center;
+    font-weight: 700;
+    font-size: small;
+}
+.button_span{
+    margin-top: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 6px;
+}
+.first_button{
+    width: 8vw;
+    padding: 8px;
+    font-size: 10px;
+    background-color: #00b6d1;
+    border:none;
+    border-radius: 5px;
+    font-weight:800;
+    cursor: pointer;
+    color: white;
+}
+.second_button{
+    width: 8vw;
+    padding: 8px;
+    font-size: 10px;
+    background-color: #5cb85c;
+    border:none;
+    border-radius: 5px;
+    font-weight:800;
+    cursor: pointer;
+    color: white;
+}
+@media screen and (max-width :945px){
+    .grid{
+        display: grid;
+        grid-template-columns: 1fr;
+        gap:25px;
+    }
+    
+}
