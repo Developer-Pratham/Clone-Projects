@@ -1,1 +1,1 @@
-This is the clone of the ultra edit website. I have made this using HTML and CSS.
+This is the clone of the ultra edit website. I have made this using HTML and CSS. I have also added a custom Cursor in the website to make it look a bit different. The image of the cursor is also attached here.
